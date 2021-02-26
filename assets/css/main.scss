@@ -1,0 +1,64 @@
+$primary : #2D9CDB;
+$secondary : #0F1C2F;
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+body{
+    font-family: poppins;
+}
+
+nav{
+    .container{
+        padding: 10px 0;
+    }
+    .navbar-toggler{
+        padding: 5px;
+        font-size: 15px;
+    }
+}
+
+.hero{
+    .row{
+        padding: 100px 0;
+    }
+    h2{
+        font-weight: bold;
+        font-size: 40px;
+        color:$white;
+    }
+    p{
+        color: #CDEDFF;
+        font-size: 17px;
+    }
+    button{
+        padding: 10px 20px;
+        color: $primary;
+        font-size: 17px;
+    }
+    button:hover{
+        color: $primary;
+    }
+}
+
+.catalog{
+    color: $secondary;
+    text-align: center;
+    .row{
+        padding: 100px 0;
+    }
+    h2{
+        font-weight: bold;
+        font-size: 40px;
+    }
+}
+
+.footer{
+    background: $secondary;
+    .col{
+        text-align: center;
+    }
+    p{
+        font-size: 12.5px;
+        color: #CDEDFF;
+        margin: 20px 0;
+    }
+}
